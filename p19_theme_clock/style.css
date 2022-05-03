@@ -73,7 +73,7 @@ body {
     height: 65px;
     width: 3px;
     transform-origin: bottom center;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55), background-color 0.5s ease-in;
 }
 
 .needle.hour {
@@ -100,6 +100,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
+    transition: all 0.5s ease-in;
 }
 
 .center-point::after {
@@ -112,6 +113,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
+    transition: all 0.5s ease-in;
 }
 
 .time {
